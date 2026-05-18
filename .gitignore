@@ -1,0 +1,19 @@
+Syngenta_IITM_Hackathon_2026_dataset*/
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Cache
+.cache/
+*.log
