@@ -466,8 +466,8 @@ with tab_studio:
                     help="Generate a poster image from the visual concept using Gemini.",
                 )
                 img_col_b.caption(
-                    "Uses Gemini image preview models. "
-                    "If you hit a rate limit, add your own API key at the bottom of the page."
+                    "Uses Gemini image preview models. Image generation is available only with a paid/upgraded Gemini API key; "
+                    "if you hit a rate limit or lack image capability, add your own API key at the bottom of the page."
                 )
                 if gen_img and c0.visual_concept:
                     with st.spinner("Generating image (this can take ~15-30s)…"):

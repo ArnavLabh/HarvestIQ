@@ -58,7 +58,7 @@ HarvestIQ is an AI marketing engine that generates personalised campaign plans f
 | `whatsapp_campaign.csv` | Historical WhatsApp engagement: delivered, opened, clicked labels for training |
 | `digital_funnel_weekly.csv` | Four flagship Rabi campaign funnels: impressions, visits, leads |
 
-> The dataset is strictly confidential and is not included in this repository. Place the Syngenta-provided files inside `Syngenta_IITM_Hackathon_2026_dataset (1)/` before running the app.
+> Place the Syngenta-provided files inside `Syngenta_IITM_Hackathon_2026_dataset (1)/` before running the app.
 
 ---
 
@@ -76,7 +76,9 @@ cp .env.example .env
 streamlit run app.py
 ```
 
-Without a Gemini key the app falls back to Ollama, then to a built-in template, so the demo works fully offline.
+Note: In the app's Content Studio (bottom of the page) there's an option to paste your Gemini API key. A free Gemini API key enables text/content generation; a paid or upgraded Gemini key also enables image generation from the app.
+
+Without a Gemini key the app falls back to a built-in template (English), so the demo works fully offline.
 
 ---
 
